@@ -63,7 +63,7 @@ while True:
 
     elif choice in ['quit','exit']:
         print("Great having you!")
-        engine.say(f'Goodbye from Ben!')
+        engine.say(f'Goodbye')
         engine.runAndWait()
         sys.exit()
         
